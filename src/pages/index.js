@@ -10,6 +10,7 @@ import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import ipad from '../assets/images/ipad.png';
+import ipad1 from '../assets/images/ipad1.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
@@ -38,18 +39,19 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">ABOUT ME</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+              Experienced Software Developer with a demonstrated history of working in the information technology and services industry.
+              Skilled in Laravel, Symfony Framework, MERN and PHP.
+              Practicer of SOLID, KISS, DRY, Domain Driven Design methodologies.
+              {/*<a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">*/}
+              {/*  the github repo*/}
+              {/*</a>*/}
+              {/*.*/}
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        <img src={ipad1} className="img-fluid" alt=""  style={{width: `400px`, height: `400px`}}/>
       </div>
     </section>
 
